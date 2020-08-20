@@ -25,21 +25,3 @@
 }
 
 /* Responsive css grid */
-
-@media screen and (min-width: 620px) {
-    .grid-dob {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media screen and (min-width: 620px) {
-    .grid-trip {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media screen and (min-width: 620px) {
-    .grid-four {
-        grid-template-columns: 1fr;
-    }
-}
