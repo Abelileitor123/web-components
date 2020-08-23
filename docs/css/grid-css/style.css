@@ -1,11 +1,14 @@
 /* Css Grid General */
 
+body {
+    background-color: black;
+}
+
 .grid-dob {
-    margin: 1em;
+    margin-top: 1em;
     padding: 1em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
 }
 
 .grid-trip {
@@ -13,7 +16,6 @@
     padding: 1em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
 }
 
 .grid-four {
@@ -21,30 +23,30 @@
     padding: 1em;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
 }
 
 /* Responsive css grid */
-@media only screen and (min-width: 600px) {
-    .grid-dob {
-        grid-template-columns: 1fr;
-    }
-    .grid-trip {
-        grid-template-columns: 1fr;
-    }
-    .grid-four {
-        grid-template-columns: 1fr;
-    }
-}
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: red;
+    }
     .grid-dob {
+        margin: 1em;
+        padding: 1em;
+        display: grid;
         grid-template-columns: 1fr;
     }
     .grid-trip {
+        margin: 1em;
+        padding: 1em;
+        display: grid;
         grid-template-columns: 1fr;
     }
     .grid-four {
+        margin: 1em;
+        padding: 1em;
+        display: grid;
         grid-template-columns: 1fr;
     }
 }
