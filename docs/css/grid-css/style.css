@@ -27,24 +27,24 @@
 /* Responsive css grid */
 @media only screen and (min-width: 600px) {
     .grid-dob {
-        grid-template-columns: repeat 1fr;
+        grid-template-columns: 1fr;
     }
     .grid-trip {
-        grid-template-columns: repeat 1fr;
+        grid-template-columns: 1fr;
     }
     .grid-four {
-        grid-template-columns: repeat 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .grid-dob {
-        grid-template-columns: repeat 1fr;
+        grid-template-columns: 1fr;
     }
     .grid-trip {
-        grid-template-columns: repeat 1fr;
+        grid-template-columns: 1fr;
     }
     .grid-four {
-        grid-template-columns: repeat 1fr;
+        grid-template-columns: 1fr;
     }
 }
