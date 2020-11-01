@@ -1,3 +1,7 @@
-body {
-
+.card-image figure img {
+    display: block;
+    margin: auto;
+    max-width: 400px;
+    object-fit: contain;
+    max-min
 }
