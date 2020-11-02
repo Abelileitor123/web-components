@@ -71,3 +71,7 @@
   height: 100%;
   object-fit: cover;
 }
+
+body {
+    background-image: url('https://img.freepik.com/vector-gratis/elegante-fondo-verde-poligono-geometrico_1035-13146.jpg?size=338&ext=jpg');
+}
