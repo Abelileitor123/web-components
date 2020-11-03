@@ -5,13 +5,6 @@
     object-fit: contain;
     max-min
 }
-.card_image_abel {
-    display: block;
-    margin: auto;
-    border-radius: 50%;
-    max-width: 500px;
-    object-fit: cover;
-}
 
 .grid-gallery {
   display: grid;
