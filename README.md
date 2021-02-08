@@ -1,4 +1,4 @@
 # web-components
 
 
-esto seran los componentes de mi primera web
+Aqui iran cosas para html para poder reutilizar luego como efectos y otros elementos
